@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylelikeaclown.css">
+    <link rel="stylesheet" href="containers.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="hh">ИИ-ассистент для учёбы</h1>
+    <div class="line-container">
+        <div class="column-container">
+            <h2 class="hh">Введите текст</h2>
+            <textarea class="text borderus shadowus" id="left"></textarea>
+            <div class="button-container">
+                <button class="all-button" id="button1" title="Озвучить текст" onclick=""></button>
+                <button class="all-button" id="button2" onclick=""></button>
+                <button class="all-button" id="button3" onclick=""></button>
+                <button class="all-button" id="button4" onclick="del()"></button>
+                <button class="all-button" id="button5" onclick="copyy()"></button>
+            </div>
+        </div>
+
+        <div class="column-container" id="middle">
+            <button class="middle-button borderus shadowus" onclick="testfetch()">
+                <h2>Сократить текст на <input oninput="sync1()" class="borderus" type="number" id="number" min=10 max=90 value="52" readonly>  %</h2><br>
+                <input oninput="sync2()" type="range" id="range" step="5" min=10 max=90 value="52">
+            </button>
+            <button class="middle-button borderus shadowus"><h2>Перефразировать</h2></button>
+        </div>
+
+        <div class="column-container">
+            <h2 class="hh">Текст</h2>
+            <textarea class="text borderus shadowus" id="right" readonly></textarea>
+            <div class="button-container">
+                <button class="all-button" id="button6" onclick=""></button>
+                <button class="all-button" id="button7" onclick="copyy2()"></button>
+                <button class="all-button" id="button8" onclick=""></button>
+            </div>
+        </div>
+    </div>
+    <script src="whatisjs.js"></script>
+</body>
+</html>

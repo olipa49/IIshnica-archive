@@ -1,0 +1,22 @@
+.main {
+    display: inline-block;
+}
+#text {
+    outline: 0;
+    resize: none;
+    height: 200px;
+    /*scrollbar-color: #6969dd #e0e0e0;*/
+}
+
+#text::-webkit-scrollbar {
+    width: 15px
+}
+
+#text::-webkit-scrollbar-thumb {
+    background: #7ee4a0; /* цвет фона у дорожки */
+    border-radius: 8px; /* скругление углов */
+    border: 3px solid #f5cdcd; /* толщина, стиль и цвет рамки */
+}
+.content img{
+    max-height: 200px;
+}
