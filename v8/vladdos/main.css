@@ -1,0 +1,117 @@
+.button{
+    color:green;
+    font-size:18px;
+    font-weight: bold;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    image-rendering: pixelated;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: 13px;
+    background-position-y: 13px;
+}
+.wind{
+    height: 600px;
+    width: 350px;
+    border-style: solid;
+    border-radius: 35px;
+    border-width: 7px;
+    padding: 8.5px;
+    outline: 0;
+    margin-top: 70px;
+    resize: none;
+    background-color: beige;
+    box-shadow: 20px 15px 4px rgb(182, 182, 182);
+}
+.wind::-webkit-scrollbar{
+    width: 20px;
+    cursor: default;
+}
+
+.wind::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+    border: 3px solid;
+    cursor: default;
+    background-color: white;
+}
+
+.wind1::-webkit-scrollbar-thumb{
+    border-color: rgb(0, 223, 223);
+}
+.wind2::-webkit-scrollbar-thumb{
+    border-color: limegreen;
+}
+
+.for_text{
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.h11{
+    margin-left: 250px;
+    margin-top: 50px;
+    display: inline-block;  
+}
+.h12{
+    margin-left: 750px;
+    margin-top: 50px;
+    display: inline-block;  
+}
+
+.wind1{
+    border-color: aqua;
+    margin-left: 200px;
+}
+.wind2{
+    border-color: lawngreen; 
+    margin-left: 300px;
+}
+.button1{
+    margin-left: 120px;
+    margin-top: 30px;
+    background-image: url('Union.png');
+}
+.button2{
+    margin-left: 20px;
+    background-image: url('image\ 3.png');
+    background-position-x: 10px;
+    background-position-y: 10px;
+}
+.button3{
+    margin-left: 20px;
+    background-image: url('image\ 4.png');
+}
+.button4{
+    margin-left: 20px;
+    background-image: url('Ellipse 25.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.button5{
+    margin-left: 20px;
+    background-image: url('image\ 8.png');
+}
+.button6{
+    margin-left: 480px;
+    background-image: url('Union.png');
+}
+.button7{
+    margin-left: 60px;
+    background-image: url('image\ 8.png');
+}
+.button8{
+    margin-left: 60px;
+    background-image: url('image\ 5.png');
+}
+.button9{
+    color:green;
+    font-size:18px;
+    font-weight: bold;
+    width:200px;
+    height:80px;
+    margin-top: -100px;
+}
