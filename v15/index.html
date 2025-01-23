@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="stylelikeaclown.css">
+    <link rel="stylesheet" href="containers.css">
+    <link rel="stylesheet" href="boba.css">
+    <link rel="icon" href="1488.ico" type="image/x-icon">
+    <title>ИИ-ассистент</title>
+
+
+    <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(99466752, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/99466752" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</head>
+<body>
+    <header class="borderus shapka">
+        <div class="header-line">
+            <img class="header-line-img" src="sdvg\Menu.svg">
+            <h1 class="hh">ИИ-ассистент для учёбы</h1>
+            <img class="header-line-img" src="sdvg\RoundLogin.svg">
+        </div>
+    </header>
+
+
+
+    <div class="line-container">
+        <div class="column-container">
+            <textarea class="text borderus shadowus" id="left" placeholder="Введите текст..."></textarea>
+            <div class="button-container">
+                <button class="all-button" id="button1" title="Озвучить текст" onclick="speakText1()"></button>
+                <button class="all-button" id="button2" title="Выбрать файл" onclick=""></button>
+                <button class="all-button" id="button3" title="Запись" onclick=""></button>
+                <button class="all-button" id="button4" title="Удалить" onclick="del()"></button>
+                <button class="all-button" id="button5" title="Копировать" onclick="copyy()"></button>
+            </div>
+        </div>
+
+
+        <!-- Серединка -->
+        <div class="column-container" id="middle">
+            <div class="line-container shadowus middle-button borderus sokr-container">
+                <button class="left-button sokr_knopka">
+                    <h2>Сократить текст на <input oninput="sync1()" class="borderus" type="number" id="number" min=10 max=90 value="52" readonly>  %</h2><br>
+                    <input oninput="sync2()" type="range" id="range" step="5" min=10 max=90 value="52">
+                </button>
+
+                <button class="right-button sokr_knopka" id="sent" onclick="apisokr()">
+                </button>
+            </div>
+
+
+            <button class="middle-button borderus shadowus" onclick="apiper()"><h2>Перефразировать</h2></button>
+            <div class="borderus shadowus">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()"><h2 class="dropbtn" id="modelname">Выпадающий</h2></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <div class="mod" onclick="set_mod1()"><div class="circle" id="cir1"></div><h3 style="padding-inline: 10px;">MODEL1</h3></div>
+                      <div class="mod" onclick="set_mod2()"><div class="circle" id="cir2"></div><h3 style="padding-inline: 10px;">MODEL2</h3></div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+
+        <div class="column-container">
+            <textarea class="text borderus shadowus" id="right" readonly placeholder="Ответ ИИ..."></textarea>
+            <div class="button-container">
+                <button class="all-button" id="button6" title="Озвучить текст" onclick="speakText2()"></button>
+                <button class="all-button" id="button7" title="Копировать" onclick="copyy2()"></button>
+                <button class="all-button" id="button8" title="Шпаргалка" onclick=""></button>
+            </div>
+        </div>
+    </div>
+    <script src="whatisjs.js"></script>
+    <script src="sss.js"></script>
+</body>
+</html>
